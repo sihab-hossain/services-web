@@ -18,7 +18,6 @@
 .hero-contant{
     font-family: "Wittgenstein", serif;
     width: 100%;
-    
     margin-top: 150px;
     display: flex;
     flex-direction: column;
@@ -63,4 +62,77 @@
     cursor: pointer;
     transition: 0.4s;
     color: rgb(0, 0, 0);
+}
+#images{
+   width: 100%;
+}
+.card-box{
+    width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+   
+}
+.container{
+    color: rgb(16, 16, 16);
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.card{
+    
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .shop{
+    border-radius: 8px;
+    background: rgba(83, 195, 3, 0.418);
+    padding: 10px 28px 10px 28px;
+    font-weight: 500;
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
+#Services-menu{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.client{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+.client .client-img{
+   border: 2px solid rgba(95, 129, 92, 0.349);
+   margin-bottom: 50px;
+}
+.client .client-img img{
+    width: 100%;
+    height: 100%;
+}
+.text-contant{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+}
+.text-contant h2{
+    padding: 10px ;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.37);
+    border-top: 1px solid rgba(16, 16, 16, 0.411); 
 }
